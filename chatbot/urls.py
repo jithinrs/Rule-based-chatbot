@@ -5,3 +5,4 @@ router = APIRouter()
 
 # Define your routes here and connect them to view functions
 router.get("/")(views.home)
+router.post('/add_user')(views.create_user)
